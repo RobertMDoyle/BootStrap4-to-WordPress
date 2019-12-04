@@ -1,0 +1,114 @@
+/*
+Theme Name: Tranquil WP
+Theme URI: http://tranquil-theme-wp.com
+Author: Rob Doyle
+Author URI: http://robdoylecreative.com
+Description: Tranquil Spa theme for WordPress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: translation-ready, right-sidebar, custom-header, featured-images, custom-menu
+Text Domain: tranquilwp
+
+*/
+
+
+body {
+    font-family: 'Merriweather', serif;  
+}
+
+.price {
+    position: absolute;
+    background: rgba(175, 169, 169, 0.6);
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    top: -40px;
+    left: -40px;
+    margin-left: 50%;
+    font-size: 1.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.feature-bg {
+    background: rgba(255, 255, 255, 0.3);
+    width: 100vw;
+    border-radius: 10px;
+}
+
+.header_img {
+    min-height: 25vh;
+}
+
+.card {
+    margin-bottom: 80px;
+}
+
+/* Welcome Section */
+.card-text {
+    font-size: 1.2rem;
+}
+
+/* Price List */
+.title {
+    color: goldenrod;
+}
+
+.list-group-item {
+    background: none;
+    font-size: 1.1em;
+}
+
+/* Footer */
+a {
+    color: #212529;
+}
+
+.widget-area > div > ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* .wp-post-image {
+    width: 75%;
+} */
+ 
+
+.wpcf7-form label {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .feature-bg {
+        width: 60vw;
+    }
+
+    .feature-text {
+        font-size: 2rem;
+        line-height: 3rem;  
+    } 
+
+    .card {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        margin-top: 1em;
+    }
+
+    footer button {
+        margin-top: 1em;
+    }
+
+    footer .col-sm-4 {
+        border-bottom: 1px solid #ddd;
+        padding: 20px 10px;
+    }
+}
